@@ -1,3 +1,7 @@
+// Import other modules to ensure they're bundled
+import './firework.js';
+import './photobooth.js';
+
 let audioUrl = "";
 let audio = null;
 let isPlaying = false;
