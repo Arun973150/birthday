@@ -34,7 +34,7 @@ const distPath = path.join(__dirname, 'dist');
 console.log('Copying assets to dist folder...');
 
 // Copy directories
-['fonts', 'img', 'music', 'style'].forEach(dir => {
+['fonts', 'img', 'music', 'style', 'script'].forEach(dir => {
   console.log(`Copying ${dir}/...`);
   copyDir(path.join(__dirname, dir), path.join(distPath, dir));
 });
