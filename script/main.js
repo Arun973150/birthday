@@ -349,3 +349,15 @@ function togglePlay(play) {
   play ? audio.play() : audio.pause();
   playPauseButton.classList.toggle("playing", play);
 }
+
+// Photo Booth Integration
+document.addEventListener("DOMContentLoaded", () => {
+  const photoBoothTrigger = document.getElementById("openPhotoBooth");
+  if (photoBoothTrigger) {
+    photoBoothTrigger.addEventListener("click", () => {
+      if (window.photoBooth) {
+        window.photoBooth.open();
+      }
+    });
+  }
+});
