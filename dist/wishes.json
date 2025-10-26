@@ -1,0 +1,30 @@
+{
+  "greeting": "Hey",
+  "name": "Meggu",
+  "greetingText": "I'm so lucky to have met such an amazing and beautiful person like you",
+  "wishText": "May your smile always be as bright as the flowers on your head, and may your beautiful smile bloom like flowers forever. May you always be happy!",
+  "imagePath": "img/panda.jpg",
+  "text1": "Today is your birthday :D",
+  "textInChatBox": "Happy Birthday! May happiness and smiles stay with you forever…",
+  "sendButtonLabel": "Send",
+  "text2": "I want you to feel excited...",
+  "text3": "I've been thinking very carefully",
+  "text4": "I knew I had to do something",
+  "text4Adjective": "special",
+  "text5Entry": "Because",
+  "text5Content": "you are special to me",
+  "smiley": ":)",
+  "bigTextPart1": "So",
+  "bigTextPart2": "Here it is",
+  "wishHeading": "Happy Birthday Meggu",
+  "outroText": "I hope you liked this",
+  "replayText": "If you liked it, you can watch it again by clicking here...",
+  "outroSmiley": ":)",
+  "music": "./music/music.mp3",
+  "fonts": [
+    {
+      "name": "Battambang",
+      "path": "https://fonts.googleapis.com/css?family=Battambang&display=swap"
+    }
+  ]
+}

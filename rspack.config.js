@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   context: __dirname,
   entry: "./script/main.js",
@@ -10,9 +12,10 @@ module.exports = {
     },
   },
   output: {
-    path: __dirname + "/dist",
+    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
     clean: true,
+    publicPath: "/",
   },
   builtins: {
     html: [
@@ -21,5 +24,14 @@ module.exports = {
         inject: true,
       },
     ],
+    copy: {
+      patterns: [
+        "fonts/**/*",
+        "img/**/*",
+        "music/**/*",
+        "style/**/*",
+        "wishes.json",
+      ],
+    },
   },
 };

@@ -4,7 +4,8 @@
   "description": "to wish someone on their birthday",
   "scripts": {
     "dev": "rspack serve",
-    "build": "rspack build",
+    "build": "rspack build && npm run copy",
+    "copy": "powershell -Command \"Copy-Item -Path fonts,img,music,style,wishes.json,index.html -Destination dist -Recurse -Force\"",
     "serve": "rspack serve"
   },
   "devDependencies": {
